@@ -14,7 +14,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header h2{
+.head{
     font-size: 24px;
 }
 .navigation{
@@ -83,4 +83,57 @@ header h2{
 }
 item p{
     font-family: 'Inter', sans-serif;
+}
+#another-button{
+    margin-left:87%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #E02C6D;
+}
+.popular{
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 37%;
+}
+footer{
+    background-color:#0A0826;
+    text-align: center;
+    color: white;
+}
+#last-part{
+    padding: 10px;
+}
+#last-part a{
+    margin: 2px;
+    color: white;
+}
+#last-part h1{
+    font-size: 24px;
+}
+#last-part p{
+    font-size: 14px;
+}
+@media (max-width:860px) {
+    .second-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .first-section {
+        flex-direction: column;
+    }
+    #another-button{
+        margin-left: 20%;
+    }
+}
+@media (min-width:861px) and (max-width:1200px)
+) {
+    .second-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .first-section {
+        flex-direction: column;
+    }
+    #another-button{
+        margin-left: 20%;
+    }
 }
