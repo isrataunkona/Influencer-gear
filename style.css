@@ -137,3 +137,6 @@ footer{
         margin-left: 20%;
     }
 }
+.item:hover{
+    transform: scale(1.05);
+}
